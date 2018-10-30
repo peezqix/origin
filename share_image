@@ -1,0 +1,6 @@
+# glance member-list --image-id 0e8f1858-ea1b-460a-b904-783e3d0f0278
+#	Create member for a given image
+# member-create 
+# glance member-create <image-uuid> <project-uuid>
+#	Update the status of a member for a given image
+# member-update <image-uuid> <project-uuid> accepted
