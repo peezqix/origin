@@ -1,0 +1,5 @@
+for dig in $(cat /home/noname/Documents/doc.txt); do dig $dig +short >> dig.txt; done
+
+for dig in $(cat /home/noname/Documents/doc.txt); do dig $dig >> dig.txt; done
+
+for dig in $(cat /home/noname/Documents/doc.txt); do nslookup $dig > dig.txt; done
