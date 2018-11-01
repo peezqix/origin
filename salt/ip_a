@@ -1,1 +1,1 @@
-salt 'ekt1*' cmd.run ip a | grep 172.26
+salt '$hostname*' cmd.run ip a | grep 172.26
